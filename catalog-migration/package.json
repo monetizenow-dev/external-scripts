@@ -1,0 +1,14 @@
+{
+  "name": "monetizenow-catalog-migration-kit",
+  "version": "1.0.0",
+  "description": "Copy a MonetizeNow product catalog from one tenant to another",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "export": "node export-catalog.mjs",
+    "import": "node import-catalog.mjs"
+  }
+}
